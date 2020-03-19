@@ -25,7 +25,7 @@ end
 
 
 get '/send_text' do
-
+    account_sid = ENV["TWILIO_ACCOUNT_SID"]
 end
 
 
